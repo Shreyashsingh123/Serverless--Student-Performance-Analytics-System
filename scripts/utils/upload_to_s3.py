@@ -2,7 +2,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-file_path ="../../data/data.csv"   # your local CSV file
+file_path ="../../data/data.csv"   
 
 bucket_name = "student-performance-25"
 s3_key = "raw/sample.csv"
