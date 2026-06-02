@@ -5,7 +5,7 @@ s3 = boto3.client('s3')
 file_path ="../../data/data.csv"   
 
 bucket_name = "student-performance-25"
-s3_key = "raw/sample.csv"
+s3_key = "raw/student_performance_200.csv"
 
 s3.upload_file(
     file_path,
