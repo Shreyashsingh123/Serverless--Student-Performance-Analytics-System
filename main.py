@@ -4,7 +4,7 @@ from scripts.crud_operations.crud_operation import (
 
 )
 from decimal import Decimal
-
+from scripts.crud_operations.query_operation import Query_Operation
 while True:
 
     print("\n1. Insert")
@@ -25,4 +25,16 @@ while True:
         delete_item()
     else:
         break
+students=Query_Operation.high_attendance_record()
+for student in students:
+    print(student)
+students2=Query_Operation.weekly_self_study()
+for student in students2:
+    print(student)
+
+students3 =Query_Operation.get_excellent_students()
+for ex in students3:
+    print(ex)
+
+
        
