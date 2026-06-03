@@ -106,9 +106,6 @@ Used for:
 ```text
 project/
 │
-├── lambda/
-│   └── lambda_function.py
-│
 ├── scripts/
 │   ├── crud_operations/
 │   │   └── crud_operation.py
@@ -157,14 +154,6 @@ Student Performance Dataset containing:
 * Missing field validation
 * Top 10 student leaderboard
 
-## Screenshots
 
-Include screenshots of:
-
-* S3 Bucket
-* Lambda Function
-* DynamoDB Table
-* GSI Configuration
-* Data Processing Results
 
 
